@@ -6,6 +6,7 @@ body {
   align-items: center;
   flex-direction: column;
   background: linear-gradient(#11e0fc, #0b555f 15%, #070d50 50%, #01031d 80%);
+  background-attachment: fixed;
   color: #fff;
 }
 
@@ -18,6 +19,11 @@ header {
 
 section {
   flex-grow: 2;
+}
+
+section.spells {
+  max-height: 50%;
+  overflow-y: scroll;
 }
 
 footer {

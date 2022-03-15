@@ -10,10 +10,12 @@ html(lang="en")
   body
     header
       h1 Hello Wizard world
-      h2 Let's discover the spell...
-    section
-      h3 #{spell.incantation}
-      p The spell effect: #{spell.effect}
+      h2 Let's discover some spells...
+    section.spells
+      each spell in spells
+        div.spell
+          h3 #{spell.incantation}
+          p The spell effect: #{spell.effect}
     footer
       p Made by myself in #{new Date().getFullYear()}
       p Thanks to 
