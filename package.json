@@ -1,0 +1,28 @@
+{
+  "name": "nodefetch_test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node-dev index.js --no-notify"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AgathePons/nodeFetch_test.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AgathePons/nodeFetch_test/issues"
+  },
+  "homepage": "https://github.com/AgathePons/nodeFetch_test#readme",
+  "dependencies": {
+    "debug": "^4.3.3",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "node-fetch": "^2.6.7",
+    "pug": "^3.0.2"
+  }
+}
